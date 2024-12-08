@@ -43,7 +43,7 @@ public class Main {
             sumPayment += current;
         }
         double averageValue;
-        averageValue = sumPayment / 5;
+        averageValue = sumPayment / payment.length;
         System.out.println("Средняя сумма трат за месяц составила " + averageValue + " рублей");
 
         System.out.println("Задача 4");
